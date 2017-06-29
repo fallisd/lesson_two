@@ -34,8 +34,11 @@ target = open(output_filename, 'w')
 # Fewer lines of code doesn't necessarily mean that the code is better, but duplicating operations that 
 # could be done in a loop is inefficient while writing and it requires more time to modify the code if 
 # it is duplicated in several places.
-# Try to use operations that can be applied to any file
-
+# Try to make the operations general. The operations shouldn't be specific to the words
+# of just one poem but it could be applied to others without modifying the code. 
+# For example: 
+# When deleting the repeating line, don't just delete line 11, because the repeated line might not
+# be on line 11 in another file.
 
 #-----------------------------
 # write code here

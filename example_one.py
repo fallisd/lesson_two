@@ -1,3 +1,3 @@
 my_list = ['physics', 'chemistry', 'biology']
 
-console.log(my_list)
+print(my_list)
