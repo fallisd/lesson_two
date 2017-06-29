@@ -5,4 +5,4 @@ my_list = ['physics', 'chemistry', 'biology', 'math', 'english']
 # The new list should be ['physics', 'math', 'biology', 'chemistry', 'english']
 
 
-console.log(my_list)
+print(my_list)
